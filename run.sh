@@ -279,7 +279,7 @@ proxyarp
 lcp-echo-failure 4
 lcp-echo-interval 30
 connect-delay 5000
-ms-dns $DNS_SRV1
+#ms-dns $DNS_SRV1
 EOF
 
 if [ -z "$VPN_DNS_SRV1" ] || [ -n "$VPN_DNS_SRV2" ]; then
